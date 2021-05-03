@@ -75,9 +75,7 @@ class TextClassifier:
 if __name__ == '__main__':
 
     embeddings = ['glove', 'word2vec']
-    # embeddings = ['glove']
     classifiers = [RandomForestClassifier(), LogisticRegression(), XGBClassifier()]
-    # classifiers = [XGBClassifier(use_label_encoder=False)]
     for embedding in embeddings:
         for classifier in classifiers:
             classifier_string = str(classifier)
