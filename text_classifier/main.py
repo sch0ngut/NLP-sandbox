@@ -12,7 +12,7 @@ class TextClassifier:
 
     def __init__(self, embedding='glove', classifier=LogisticRegression()):
 
-        # Load word embedding -
+        # Load word embedding
         self.embedding = embedding
         if self.embedding == 'glove':
             self.embedding_dim = 50
