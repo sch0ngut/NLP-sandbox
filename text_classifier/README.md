@@ -5,8 +5,10 @@ Implements a text classifier using a *bag-of-words* data representation. The mod
 The data can be downloaded from:
 https://lazyprogrammer.me/course_files/deepnlp_classification_data.zip
 
-An object of `TextClassifier` class can be instantiated either with a GloVe or a Word2Vec embedding. Using the embedding the feature vector is built as
-```math
-feature = \frac{1}{|document|}\sum_{w \in document} vec(w)
-```
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+An object of `TextClassifier` class can be instantiated either with a GloVe or a Word2Vec embedding and using any classifier (e.g. RandomForest).
+
+Here are the training / test accuracies of some selected classifiers and both embeddings:
+
+        | Logistic Regression | Random Forest | XGBoost       |
+GloVe   |  93.91% / 94.20%    |99.93% / 92.96%|99.93% / 93.88%|
+Word2vec|  95.13% / 94.15%    |99.93% / 93.83%|99.93% / 95.61%|
