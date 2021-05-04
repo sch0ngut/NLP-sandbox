@@ -13,3 +13,9 @@ Here are the training / test accuracies of some selected classifiers and both em
         | ------------------- | ------------- | ------------- |
         |  93.91% / 94.20%    |99.93% / 92.96%|99.93% / 93.88%|
         |  95.13% / 94.15%    |99.93% / 93.83%|99.93% / 95.61%|
+        
+        
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
