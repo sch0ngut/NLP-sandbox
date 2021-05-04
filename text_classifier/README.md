@@ -11,5 +11,5 @@ Here are the training / test accuracies of some selected classifiers and both em
 
 | Logistic Regression | Random Forest | XGBoost       |
 | ------------------- | ------------- | ------------- |
-|  93.91% / 94.20%    |99.93% / 92.96%|99.93% / 93.88%|
-|  95.13% / 94.15%    |99.93% / 93.83%|99.93% / 95.61%|
+GloVe |  93.91% / 94.20%    |99.93% / 92.96%|99.93% / 93.88%|
+Word2vec|  95.13% / 94.15%    |99.93% / 93.83%|99.93% / 95.61%|
