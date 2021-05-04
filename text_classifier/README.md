@@ -9,3 +9,4 @@ An object of `TextClassifier` class can be instantiated either with a GloVe or a
 ```math
 feature = \frac{1}{|document|}\sum_{w \in document} vec(w)
 ```
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
